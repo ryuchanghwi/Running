@@ -15,7 +15,15 @@
 		A50658C32DF1817300E61B70 /* RunningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50658C22DF1817300E61B70 /* RunningUITests.swift */; };
 		A50658C52DF1817300E61B70 /* RunningUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50658C42DF1817300E61B70 /* RunningUITestsLaunchTests.swift */; };
 		A50658D52DF194E500E61B70 /* CadenceLiveManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50658D42DF194E500E61B70 /* CadenceLiveManager.swift */; };
+		A5A757A52E234079009E4D81 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A757A42E234079009E4D81 /* View.swift */; };
 		A5AAC3F82E224E9600E5BD60 /* MetronomeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AAC3F72E224E9600E5BD60 /* MetronomeManager.swift */; };
+		A5AD85A82E2253340086A8C5 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD85A72E2253340086A8C5 /* MainTabView.swift */; };
+		A5AD85AC2E2254520086A8C5 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD85AB2E2254520086A8C5 /* WorkoutView.swift */; };
+		A5AD85AF2E228FE80086A8C5 /* DLSTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD85AE2E228FE80086A8C5 /* DLSTabBar.swift */; };
+		A5AD85B22E22C5810086A8C5 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD85B12E22C57D0086A8C5 /* CalendarView.swift */; };
+		A5AD85B42E22C5DB0086A8C5 /* CalendarControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD85B32E22C5DB0086A8C5 /* CalendarControlView.swift */; };
+		A5AD85B82E22D0000086A8C5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD85B72E22D0000086A8C5 /* Color.swift */; };
+		A5AD85BA2E22D0D20086A8C5 /* CalendarModeControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD85B92E22D0D20086A8C5 /* CalendarModeControlView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +57,15 @@
 		A50658D12DF1878C00E61B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A50658D22DF189EC00E61B70 /* Running.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Running.entitlements; sourceTree = "<group>"; };
 		A50658D42DF194E500E61B70 /* CadenceLiveManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadenceLiveManager.swift; sourceTree = "<group>"; };
+		A5A757A42E234079009E4D81 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		A5AAC3F72E224E9600E5BD60 /* MetronomeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeManager.swift; sourceTree = "<group>"; };
+		A5AD85A72E2253340086A8C5 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A5AD85AB2E2254520086A8C5 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		A5AD85AE2E228FE80086A8C5 /* DLSTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLSTabBar.swift; sourceTree = "<group>"; };
+		A5AD85B12E22C57D0086A8C5 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		A5AD85B32E22C5DB0086A8C5 /* CalendarControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarControlView.swift; sourceTree = "<group>"; };
+		A5AD85B72E22D0000086A8C5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		A5AD85B92E22D0D20086A8C5 /* CalendarModeControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModeControlView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +116,11 @@
 		A50658A62DF1817100E61B70 /* Running */ = {
 			isa = PBXGroup;
 			children = (
+				A5AD85AD2E226F580086A8C5 /* DesignSystem */,
+				A5AD85A52E2252DE0086A8C5 /* View */,
 				A50658D32DF1917E00E61B70 /* Core */,
 				A50658D22DF189EC00E61B70 /* Running.entitlements */,
 				A50658D12DF1878C00E61B70 /* Info.plist */,
-				A50658A72DF1817100E61B70 /* RunningApp.swift */,
-				A50658A92DF1817100E61B70 /* ContentView.swift */,
 				A50658AB2DF1817300E61B70 /* Assets.xcassets */,
 				A50658AD2DF1817300E61B70 /* Preview Content */,
 			);
@@ -139,10 +155,82 @@
 		A50658D32DF1917E00E61B70 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				A5A757A32E234070009E4D81 /* View */,
+				A5AD85B62E22CFEA0086A8C5 /* Color */,
+				A5AD85B52E22CFD70086A8C5 /* Date */,
 				A50658D42DF194E500E61B70 /* CadenceLiveManager.swift */,
 				A5AAC3F72E224E9600E5BD60 /* MetronomeManager.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		A5A757A32E234070009E4D81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5A757A42E234079009E4D81 /* View.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A5AD85A52E2252DE0086A8C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5AD85AA2E2254180086A8C5 /* WorkoutView */,
+				A5AD85A62E22531A0086A8C5 /* TabView */,
+				A50658A72DF1817100E61B70 /* RunningApp.swift */,
+				A50658A92DF1817100E61B70 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A5AD85A62E22531A0086A8C5 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				A5AD85A72E2253340086A8C5 /* MainTabView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		A5AD85AA2E2254180086A8C5 /* WorkoutView */ = {
+			isa = PBXGroup;
+			children = (
+				A5AD85B02E22C5730086A8C5 /* CalendarView */,
+				A5AD85AB2E2254520086A8C5 /* WorkoutView.swift */,
+			);
+			path = WorkoutView;
+			sourceTree = "<group>";
+		};
+		A5AD85AD2E226F580086A8C5 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				A5AD85AE2E228FE80086A8C5 /* DLSTabBar.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		A5AD85B02E22C5730086A8C5 /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				A5AD85B12E22C57D0086A8C5 /* CalendarView.swift */,
+				A5AD85B32E22C5DB0086A8C5 /* CalendarControlView.swift */,
+				A5AD85B92E22D0D20086A8C5 /* CalendarModeControlView.swift */,
+			);
+			path = CalendarView;
+			sourceTree = "<group>";
+		};
+		A5AD85B52E22CFD70086A8C5 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		A5AD85B62E22CFEA0086A8C5 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				A5AD85B72E22D0000086A8C5 /* Color.swift */,
+			);
+			path = Color;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,10 +363,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5AD85AF2E228FE80086A8C5 /* DLSTabBar.swift in Sources */,
+				A5AD85BA2E22D0D20086A8C5 /* CalendarModeControlView.swift in Sources */,
+				A5AD85A82E2253340086A8C5 /* MainTabView.swift in Sources */,
+				A5AD85B22E22C5810086A8C5 /* CalendarView.swift in Sources */,
+				A5AD85B82E22D0000086A8C5 /* Color.swift in Sources */,
 				A50658AA2DF1817100E61B70 /* ContentView.swift in Sources */,
 				A50658A82DF1817100E61B70 /* RunningApp.swift in Sources */,
 				A5AAC3F82E224E9600E5BD60 /* MetronomeManager.swift in Sources */,
+				A5A757A52E234079009E4D81 /* View.swift in Sources */,
+				A5AD85AC2E2254520086A8C5 /* WorkoutView.swift in Sources */,
 				A50658D52DF194E500E61B70 /* CadenceLiveManager.swift in Sources */,
+				A5AD85B42E22C5DB0086A8C5 /* CalendarControlView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +551,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -490,6 +587,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
